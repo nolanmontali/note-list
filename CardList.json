@@ -1,0 +1,720 @@
+{
+  "DYEB-03": {
+    "id": "DYH-03",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Agath",
+        "type": "Adepte",
+        "cost": "3",
+        "image": "https://i.postimg.cc/3RbpDZsS/Agath.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Agath",
+    "type": "Adepte",
+    "cost": "3",
+    "Capacité": [
+      "Appel : cherchez dans votre Temple une Statue de jade et posez-la sur votre Champ de Bataille. Mélangez ensuite votre Temple.",
+      "Dernier souffle : cherchez dans votre Cimetière une Statue de Jade et ajoutez-la à votre Main."
+    ],
+    "Attaque": "3",
+    "Vie": "2"
+  },
+  "DFEB-01": {
+    "id": "DF-01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Œuf de Fénix",
+        "type": "Déité",
+        "cost": "",
+        "image": "https://i.postimg.cc/VsZ737BK/Oeuf-de-Fenix.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Berceau de Fénix",
+        "type": "Lieu et Déité (Ascension)",
+        "cost": "",
+        "image": "https://i.postimg.cc/k4fjMwrN/Berceau-de-Fenix.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Œuf de Fénix",
+    "type": "Déité",
+    "cost": "",
+    "Attaque": "",
+    "Ascension": true,
+    "Capacité": [
+      "Au début de la partie, après avoir pioché votre main, mélangez 4 Fragment de Fénix dans votre Temple."
+    ],
+    "Condition d'Adscension": [
+      "Si les 4 Fragments de Fénix sont visibles sur le Champ de Bataille et/ou dans le Cimetière, réalisez l’Ascension de l'Oeuf de Fénix."
+    ],
+    "Capacité d'Ascension": [
+      "Au début du tour, mettez un compteur TEMPS sur le Berceau de Fénix s'il en possède au moins un, et soignez toute sa Vie.",
+      "Quand sa Vie tombe à 0, retirez un compteur TEMPS.",
+      "Lorsque le Berceau de Fénix possède 3 compteurs TEMPS, vous gagnez la partie."
+    ]
+  },
+  "DFEB-03A": {
+    "id": "DF-02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fragment de Fénix",
+        "type": "Adepte",
+        "cost": "5",
+        "image": "https://i.postimg.cc/j22MDNtK/Fragment-de-Fenix.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fragment de Fénix",
+    "type": "Adepte",
+    "cost": "5",
+    "Capacité": [
+      "(Ne compte pas dans la limite de carte de départ dans la construction de votre Temple)",
+      "Si les 4 Fragments de Fénix sont visibles sur le Champ de Bataille et/ou dans le Cimetière, réalisez l’Ascension de l'Oeuf de Fénix."
+    ],
+    "Attaque": "5",
+    "Vie": "5"
+  },
+  "DFEB-04": {
+    "id": "DF-03",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Lieutenante Zélé",
+        "type": "Adepte",
+        "cost": "2",
+        "image": "https://i.postimg.cc/bYV6K6H6/Lieutlante-Zele.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lieutenante Zélé",
+    "type": "Adepte",
+    "cost": "2",
+    "Capacité": [
+      "Quand la Lieutenante Zélé attaque, elle fait perdre 1 de Vie à une cible adverse, Adepte ou Lieu. "
+    ],
+    "Attaque": "2",
+    "Vie": "2"
+  },
+  "DFEB-05": {
+    "id": "DF-04",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Général Zélé",
+        "type": "Adepte",
+        "cost": "4",
+        "image": "https://i.postimg.cc/yxGvcdYw/General-Zele.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Général Zélé",
+    "type": "Adepte",
+    "cost": "4",
+    "Capacité": [
+      "Appel, Dernier Souffle : Cherchez jusqu'à un Soldat Zélé dans votre Temple ou votre Cimetière et posez-le sur le Champ de Bataille. Mélangez votre Temple si vous avez cherchez dedans."
+    ],
+    "Attaque": "3",
+    "Vie": "3"
+  },
+  "DFEB-06": {
+    "id": "DF-05",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Soldat Zélé",
+        "type": "Adepte",
+        "cost": "1",
+        "image": "https://i.postimg.cc/kMYjkjFz/Soldat-zele.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Soldat Zélé",
+    "type": "Adepte",
+    "cost": "1",
+    "Capacité": [
+      "Dernier souffle : le Soldat Zélé fait perdre 1 de Vie à une cible adverse, Adepte ou Lieu."
+    ],
+    "Attaque": "1",
+    "Vie": "1"
+  },
+  "DFEB-07": {
+    "id": "DF-06",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Le Siffleur",
+        "type": "Adepte",
+        "cost": "3",
+        "image": "https://i.postimg.cc/WzyXg31h/Le-siffleur.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Le Siffleur",
+    "type": "Adepte",
+    "cost": "3",
+    "Capacité": [
+      "Appel : vous pouvez mettre une carte de votre Main dans votre Cimetière.",
+      "Dernier souffle : choisissez un Fragment de Fénix dans votre Cimetière et posez-le sur votre Champ de Bataille."
+    ],
+    "Attaque": "2",
+    "Vie": "3"
+  },
+  "DFEB-08": {
+    "id": "DFEB-07",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Compagnon de mémoire",
+        "type": "Adepte",
+        "cost": "7",
+        "image": "https://i.postimg.cc/4dB84wC1/Compagon-de-memoire.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Compagnon de mémoire",
+    "type": "Adepte",
+    "cost": "7",
+    "Attaque": "6",
+    "Vie": "6",
+    "Capacité": [
+      "Protecteur",
+      "Si vous contrôlez au moins un Fragment de Fénix sur votre Champ de Bataille, vous pouvez jouer le Compagnon de Mémoire avec une valeur de Foi réduite de 3."
+    ]
+  },
+  "DFEB-09": {
+    "id": "DFEB-08",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Grand Prêtre du Soleil",
+        "type": "Adepte",
+        "cost": "8",
+        "image": "https://i.postimg.cc/NFnpmMjg/Grand-pretre-du-soleil.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Grand Prêtre du Soleil",
+    "type": "Adepte",
+    "cost": "8",
+    "Capacité": [
+      "Appel :  détruisez tous les autres Adeptes que vous contrôlez sur votre Champ de Bataille. Pour chaque Adepte détruit de cette manière, choisissez un Adepte de nom différent dans votre Cimetière et posez-le sur votre Champ de Bataille."
+    ],
+    "Attaque": "5",
+    "Vie": "5"
+  },
+  "DFEB-10": {
+    "id": "DFEB-09",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Émissaire de Fénix",
+        "type": "Adepte",
+        "cost": "5",
+        "image": "https://i.postimg.cc/LXNy4vdN/Emissaire-de-Fenix.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Émissaire de Fénix",
+    "type": "Adepte",
+    "cost": "5",
+    "Capacité": [
+      "Appel, Renaissance : si un Fragment de Fénix est sur votre Champ de Bataille, détruisez-le puis cherchez 2 Fragments de Fénix dans votre Temple ou votre main et posez-les sur votre Champ de Bataille. Si aucun Fragment de Fénix ne se trouve sur votre Champ de Bataille, cherchez un Fragment de fénix dans votre Cimetière ou votre main et posez-le sur votre Champ de Bataille. Mélangez ensuite votre Temple si vous avez cherché une carte à l'intérieur."
+    ],
+    "Attaque": "3",
+    "Vie": "3"
+  },
+  "DFEB-11": {
+    "id": "DFEB-10",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Réincarnation divine",
+        "type": "Sort",
+        "cost": "4",
+        "image": "https://i.postimg.cc/MZ3shsbP/Reincarnation-divine.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Réincarnation divine",
+    "type": "Sort",
+    "cost": "4",
+    "Attaque": "",
+    "Vie": "",
+    "Capacité": [
+      "Détruisez l'un de vos Adeptes. Cherchez dans votre Temple ou votre Main un Adepte de valeur de Foi de 5 et posez-le sur votre Champ de Bataille. Mélangez ensuite votre Temple si vous avez cherché une carte à l'intérieur."
+    ]
+  },
+  "DFEB-12": {
+    "id": "DFEB-11",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sacrifice profitable",
+        "type": "Sort",
+        "cost": "2",
+        "image": "https://i.postimg.cc/NGCNWN7n/Sacrifice-profitable.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sacrifice profitable",
+    "type": "Sort",
+    "cost": "2",
+    "Attaque": "",
+    "Vie": "",
+    "Capacité": [
+      "Pour jouer cette carte, détruisez l'un des Adeptes sur votre Champ de Bataille ou mettez une carte de votre Main dans votre Cimetière. Piochez 2 cartes."
+    ]
+  },
+  "DFEB-13": {
+    "id": "DFEB-12",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fanatisme extrême",
+        "type": "Sort",
+        "cost": "1",
+        "image": "https://i.postimg.cc/fyy8VXZB/Fanatisme-extreme.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fanatisme extrême",
+    "type": "Sort",
+    "cost": "1",
+    "Attaque": "",
+    "Vie": "",
+    "Capacité": [
+      "Donnez +3/3+ à l'un de vos Adeptes. Détruisez-le à la fin du tour."
+    ]
+  },
+  "DFEB-14": {
+    "id": "DFEB-13",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dévotion absolue",
+        "type": "Sort",
+        "cost": "3",
+        "image": "https://i.postimg.cc/Px26fKG4/Devotion-absolue.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dévotion absolue",
+    "type": "Sort",
+    "cost": "3",
+    "Attaque": "",
+    "Vie": "",
+    "Capacité": [
+      "Détruisez l'un de vos Apdeptes. Posez-le sur votre Champ de Bataille depuis votre Cimetière."
+    ]
+  },
+  "DFEB-15": {
+    "id": "DFEB-15",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Héraut de l'annoncement",
+        "type": "Adepte",
+        "cost": "1",
+        "image": "https://i.postimg.cc/SRPDCsxR/Heraut-de-l-annoncement.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Héraut de l'annoncement",
+    "type": "Adepte",
+    "cost": "1",
+    "Capacité": [
+      "Appel : cherchez jusqu'à un Fragment de Fénix dans votre Temple, révélez-le puis mettez-le soit dans votre Main, soit dans votre Cimetière. Mélangez ensuite votre Temple si vous avez cherché une carte à l'intérieur."
+    ],
+    "Attaque": "1",
+    "Vie": "1"
+  },
+  "DFEB-02": {
+    "id": "",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Tambourin",
+        "type": "Artéfact",
+        "cost": "",
+        "image": "https://i.postimg.cc/L4QyryBG/Tambourin.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Grand Tambour de Fénix",
+        "type": "Artéfact (Ascension)",
+        "cost": "",
+        "image": "https://i.postimg.cc/gj7N8J20/Grand-tamboutain-de-fenix.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tambourin",
+    "type": "Artéfact",
+    "cost": "",
+    "Attaque": "",
+    "Vie": "",
+    "Capacité": [
+      "Une fois par tour, lorsqu'un Adepte avec le Dernier souffle que vous contrôlez est détruit, piochez une carte."
+    ],
+    "Ascension": true,
+    "Capacité d'Ascension": [
+      "Le Berceau de Fénix ne peut pas être détruit ni renvoyé en Main. Cette capacité n'est pas annulable."
+    ]
+  },
+  "DFEB-03B": {
+    "id": "DFEB-03B",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fragment de Fénix",
+        "type": "Adepte",
+        "cost": "5",
+        "image": "https://i.postimg.cc/j22MDNtK/Fragment-de-Fenix.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fragment de Fénix",
+    "type": "Lieu",
+    "cost": "5",
+    "Capacité": [
+      "(Ne compte pas dans la limite de carte de départ dans la construction de votre Temple)",
+      "Si les 4 Fragments de Fénix sont visibles sur le Champ de Bataille et/ou dans le Cimetière, réalisez l’Ascension de l'Oeuf de Fénix."
+    ],
+    "Attaque": "5",
+    "Vie": "5"
+  },
+  "DYEB-02": {
+    "id": "DYEB-02",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Temple de campagne",
+        "type": "Artéfact",
+        "cost": 0,
+        "image": "https://i.postimg.cc/nrjmKDxR/Artefact-Yuan-Huang.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Temple de la capitale",
+        "type": "Artéfact (Ascension)",
+        "cost": 0,
+        "image": "https://i.postimg.cc/FzdSbLvy/Artefact-Ascension-Yuan-Huang.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Temple de campagne / Temple de la capitale",
+    "type": "Artéfact",
+    "cost": 0,
+    "Attaque": "",
+    "Vie": "",
+    "Ascension": true,
+    "Capacité": [
+      "Quand vous piochez votre carte au début du tour, si vous possédez au 2 de Foi Maximum de plus que votre adversaire, piochez une carte supplémentaire."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": [
+      "Au début du tour, augmentez de 1 votre Foi Maximale."
+    ]
+  },
+  "DYEB-04": {
+    "id": "DYEB-04",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Conseiller avisé",
+        "type": "Adepte",
+        "cost": "3",
+        "image": "https://i.postimg.cc/C5B8Cq0r/Conseiller-avise.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Conseiller avisé",
+    "type": "Adepte",
+    "cost": "3",
+    "Ascension": false,
+    "Capacité": [
+      "Vos cartes Sort ciblent une cible supplémentaire.",
+      "Dernier souffle : choisissez jusqu'à un autre Conseiller de valeur de Foi inférieur au Conseiller avisé dans votre Cimetière et ajoutez-le à votre Main."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false,
+    "Attaque": "1",
+    "Vie": "3"
+  },
+  "DYEB-05": {
+    "id": "DYEB-05",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Conseiller impérial",
+        "type": "Adepte",
+        "cost": "2",
+        "image": "https://i.postimg.cc/Vvrt9CwV/Conseiller-Imperial.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Conseiller impérial",
+    "type": "Adepte",
+    "cost": "2",
+    "Attaque": "1",
+    "Vie": "1",
+    "Ascension": false,
+    "Capacité": [
+      "Dernier souffle : augmentez votre Foi Maximale de 1."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-06": {
+    "id": "DYEB-06",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://i.postimg.cc/T1LbjDxF/Conseiller-mnutieux.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Conseiller minutieux",
+    "type": false,
+    "cost": 0,
+    "Attaque": 0,
+    "Vie": 0,
+    "Ascension": false,
+    "Capacité": false,
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-07": {
+    "id": "DYEB-08",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Sort",
+        "cost": "3",
+        "image": "https://i.postimg.cc/rmYWt9Bp/Decret-Imperial.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Décret impérial",
+    "type": "Sort",
+    "cost": "3",
+    "Attaque": "",
+    "Vie": "",
+    "Ascension": false,
+    "Capacité": [
+      "Augmentez votre Foi Maximale de 1."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-08": {
+    "id": "DYEB-08",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Déni Impérial",
+        "type": "Sort",
+        "cost": "4",
+        "image": "https://i.postimg.cc/Y9ygmx59/Denis-Imperial.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Déni impérial",
+    "type": "Sort",
+    "cost": "4",
+    "Attaque": "",
+    "Vie": "",
+    "Ascension": false,
+    "Capacité": [
+      "Choisissez un Adepte adverse et renvoyez-le dans la main de son propriétaire. Si sa valeur de Foi est inférieure à celle du Déni impérial, augmentez votre Foi Maximale de 1."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-09": {
+    "id": "DYEB-10",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Sort",
+        "cost": "3",
+        "image": "https://i.postimg.cc/XJDFygRq/Ecrasement-de-la-realite.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Écrasement de la réalité",
+    "type": "Sort",
+    "cost": "3",
+    "Attaque": "",
+    "Vie": "",
+    "Ascension": false,
+    "Capacité": [
+      "Renvoyez jusqu'à 3 Adeptes controlés par votre adversaire dans la main de leur propriétaire."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-10": {
+    "id": "DYEB-11",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "Adepte",
+        "cost": "2",
+        "image": "https://i.postimg.cc/DZYsbc98/Escroc-distingue.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Escroc distingué",
+    "type": false,
+    "cost": "2",
+    "Attaque": "2",
+    "Vie": "2",
+    "Ascension": false,
+    "Capacité": [
+      "A chaque fois que l'Escorc distingué attaque, piochez 1 carte."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-11": {
+    "id": "DYEB-11",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Héron de la montagne",
+        "type": "Adepte",
+        "cost": "7",
+        "image": "https://i.postimg.cc/C16Df43q/Heron-de-la-montagne.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Héron de la montagne",
+    "type": "Adepte",
+    "cost": "7",
+    "Attaque": "4",
+    "Vie": "6",
+    "Ascension": false,
+    "Capacité": [
+      "Appel : mettez un marquer SILENCE sur jusqu'à 2 Adeptes sur les Champs de Bataille. Augmentez votre Foi Maximale de 1."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-12": {
+    "id": "DYEB-12",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Pot de vin",
+        "type": "Sort",
+        "cost": "1",
+        "image": "https://i.postimg.cc/G2SYsjWD/Pot-de-vin.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pot de vin",
+    "type": "Sort",
+    "cost": "1",
+    "Attaque": "",
+    "Vie": "",
+    "Ascension": false,
+    "Capacité": [
+      "Choisissez un Adepte ayant une valeur de Foi de 4 ou moins sur l'un des Champ de Bataille : renvoyez-le dans la main de son propriétaire. Votre adversaire pioche 1 carte."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-13": {
+    "id": "DYEB-13",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rejet des faibles",
+        "type": false,
+        "cost": "",
+        "image": "https://i.postimg.cc/Y9ygmx5Y/Rejet-des-faibles.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rejet des faibles",
+    "type": false,
+    "cost": "",
+    "Attaque": "",
+    "Vie": "",
+    "Ascension": false,
+    "Capacité": [
+      "Choisissez un Adepte contrôlé par votre adversaire ayant une valeur en Foi de X : détruisez la cible."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-14": {
+    "id": "DYEB-14",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Xiao Huang",
+        "type": "Adepte",
+        "cost": "5",
+        "image": "https://i.postimg.cc/W3frJ7BG/Xiao-Huang.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Xiao Huang",
+    "type": "Adepte",
+    "cost": "5",
+    "Attaque": "3",
+    "Vie": "3",
+    "Ascension": false,
+    "Capacité": [
+      "Appel : piochez 1 carte et augmentez votre Foi Maximale de 1.",
+      "Si Yuan Huang a réalisé son Ascension, Xiao Huang gagne +3/+3 et Protecteur."
+    ],
+    "Condition d'Adscension": false,
+    "Capacité d'Ascension": false
+  },
+  "DYEB-01": {
+    "id": "DYEB-01",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Yuan Huang",
+        "type": "Déité",
+        "cost": "",
+        "image": "https://i.postimg.cc/C16Df43c/Yuan-Huang.jpg",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Yuan Huang (Ascension)",
+        "type": "Déité (Ascension)",
+        "cost": "",
+        "image": "https://i.postimg.cc/50kvFmhS/Yuan-Huang-Ascension.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Yuan Huang",
+    "type": "Déité",
+    "cost": "",
+    "Attaque": "",
+    "Vie": "",
+    "Ascension": true,
+    "Capacité": [],
+    "Condition d'Adscension": [
+      "Si votre Foi Maximale atteint 10, réalisez l'Ascension de Yuan Huang."
+    ],
+    "Capacité d'Ascension": [
+      "Si votre Foi Maximale atteint 20, vous remportez la partie."
+    ]
+  }
+}
